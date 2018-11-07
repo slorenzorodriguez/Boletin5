@@ -14,7 +14,7 @@ public class Conta {
     private String numConta;
     private double saldo;
 
-    //constructores
+    
     public Conta() {
     }
 
@@ -24,7 +24,7 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    //setters
+   
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -37,7 +37,7 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    //getters
+   
     public String getNome() {
         return this.nome;
     }
@@ -50,7 +50,7 @@ public class Conta {
         return this.saldo;
     }
 
-    //Outros metodos(ingreso,reintegro,visualizar y transferencia)
+    
     public boolean ingreso(double cantidad) {
         if (cantidad > 0) {
             this.saldo = this.saldo + cantidad;
